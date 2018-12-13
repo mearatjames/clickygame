@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "SpongeBob",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150915961762659&image_type=BestEffortImage"
+    "image": "./images/1.png"
   },
   {
     "id": 2,
     "name": "Mr. Krabs",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916035095985&image_type=BestEffortImage"
+    "image": "./images/2.png"
   },
   {
     "id": 3,
     "name": "Squidward",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150915985095990&image_type=BestEffortImage"
+    "image": "./images/3.png"
   },
   {
     "id": 4,
     "name": "Dexter",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916078429314&image_type=BestEffortImage"
+    "image": "./images/4.png"
   },
   {
     "id": 5,
     "name": "Courage",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916065095982&image_type=BestEffortImage"
+    "image": "./images/5.png"
   },
   {
     "id": 6,
     "name": "Doug Funnie",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916125095976&image_type=BestEffortImage"
+    "image": "./images/6.png"
   },
   {
     "id": 7,
     "name": "Bugs Bunny",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916131762642&image_type=BestEffortImage"
+    "image": "./images/7.png"
   },
   {
     "id": 8,
     "name": "Johnny Bravo",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916141762641&image_type=BestEffortImage"
+    "image": "./images/8.png"
   },
   {
     "id": 9,
     "name": "Tommy Pickles",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916251762630&image_type=BestEffortImage"
+    "image": "./images/9.png"
   },
   {
     "id": 10,
     "name": "Rocko",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916008429321&image_type=BestEffortImage"
+    "image": "./images/10.png"
   },
   {
     "id": 11,
     "name": "Captain Planet",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916048429317&image_type=BestEffortImage"
+    "image": "./images/11.png"
   },
   {
     "id": 12,
     "name": "Ickis",
-    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916238429298&image_type=BestEffortImage"
+    "image": "./images/12.png"
   }
 ]
