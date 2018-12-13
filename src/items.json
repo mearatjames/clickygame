@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "SpongeBob",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150915961762659&image_type=BestEffortImage"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Krabs",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916035095985&image_type=BestEffortImage"
+  },
+  {
+    "id": 3,
+    "name": "Squidward",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150915985095990&image_type=BestEffortImage"
+  },
+  {
+    "id": 4,
+    "name": "Dexter",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916078429314&image_type=BestEffortImage"
+  },
+  {
+    "id": 5,
+    "name": "Courage",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916065095982&image_type=BestEffortImage"
+  },
+  {
+    "id": 6,
+    "name": "Doug Funnie",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916125095976&image_type=BestEffortImage"
+  },
+  {
+    "id": 7,
+    "name": "Bugs Bunny",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916131762642&image_type=BestEffortImage"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Bravo",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916141762641&image_type=BestEffortImage"
+  },
+  {
+    "id": 9,
+    "name": "Tommy Pickles",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916251762630&image_type=BestEffortImage"
+  },
+  {
+    "id": 10,
+    "name": "Rocko",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916008429321&image_type=BestEffortImage"
+  },
+  {
+    "id": 11,
+    "name": "Captain Planet",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916048429317&image_type=BestEffortImage"
+  },
+  {
+    "id": 12,
+    "name": "Ickis",
+    "image": "https://www.facebook.com/stickers/asset/?sticker_id=150916238429298&image_type=BestEffortImage"
+  }
+]
