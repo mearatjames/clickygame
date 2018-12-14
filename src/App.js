@@ -12,22 +12,28 @@ class App extends Component {
     items,
     selected: [],
     topScore: 0,
-    currentScore: 0
+    currentScore: 0,
+    highlight: ""
   }
 
   handleSelect = id => {
     if (this.state.selected.indexOf(id) === -1) {
       this.state.selected.push(id)
-      this.setState({currentScore: this.state.currentScore + 1})
+      this.setState({currentScore: this.state.currentScore + 1, highlight: 'green'})
+      setTimeout(() => {
+        this.setState({highlight: ""})
+      }, 400)
       this.state.currentScore >= this.state.topScore ? this.setState({topScore: this.state.topScore + 1}) : this.setState({topScore: this.state.topScore})
     } else {
-
-      this.setState({currentScore: 0, selected: []})
-    }
-    
+      this.setState({currentScore: 0, selected: [], highlight: 'red'})
+      setTimeout(() => {
+        this.setState({highlight: ""})
+      }, 400)
+    } 
     const items = this.state.items.sort(() => 0.5 - Math.random())
     this.setState({ items })
   }
+
 
   render() {
     return (
@@ -35,6 +41,7 @@ class App extends Component {
       <Nav 
       currentScore={this.state.currentScore}
       topScore={this.state.topScore}
+      highlight={this.state.highlight}
        />
       <Grid
         container 

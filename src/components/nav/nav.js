@@ -35,7 +35,7 @@ function Nav(props) {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color="default">
+      <AppBar className={props.highlight} position="fixed" color="default">
         <Toolbar>
       <Grid container>
       <Grid item xs={12} sm={6}>
@@ -43,7 +43,7 @@ function Nav(props) {
          <p>Clicky Game</p> 
         </Typography>
       </Grid>
-      <Grid justify="flex-end" item xs={12} sm={6}>
+      <Grid item xs={12} sm={6}>
         <Typography className={classes.rightToolbar} variant="h6" color="inherit">
         <p>Current Score: {props.currentScore} | Top Score: {props.topScore} </p>
         </Typography>
