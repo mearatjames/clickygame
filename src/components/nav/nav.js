@@ -22,7 +22,12 @@ const styles = theme => ({
     [theme.breakpoints.down('sm')]: {
      textAlign: 'center'
     }
-  }
+  },
+  appName: {
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center'
+      }
+    }
 });
 
 function Nav(props) {
@@ -34,7 +39,7 @@ function Nav(props) {
         <Toolbar>
       <Grid container>
       <Grid item xs={12} sm={6}>
-        <Typography variant="h6" color="inherit">
+        <Typography className={classes.appName} variant="h6" color="inherit">
          <p>Clicky Game</p> 
         </Typography>
       </Grid>
