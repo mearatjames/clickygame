@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Boat",
     "image": "./images/1.png"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
+    "name": "Thumb Up",
     "image": "./images/2.png"
   },
   {
     "id": 3,
-    "name": "Squidward",
+    "name": "Bicycle",
     "image": "./images/3.png"
   },
   {
     "id": 4,
-    "name": "Dexter",
+    "name": "Sinking Boat",
     "image": "./images/4.png"
   },
   {
     "id": 5,
-    "name": "Courage",
+    "name": "Book",
     "image": "./images/5.png"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
+    "name": "Shock",
     "image": "./images/6.png"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
+    "name": "Camera",
     "image": "./images/7.png"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
+    "name": "Cook",
     "image": "./images/8.png"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
+    "name": "Drink",
     "image": "./images/9.png"
   },
   {
     "id": 10,
-    "name": "Rocko",
+    "name": "Sushi",
     "image": "./images/10.png"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
+    "name": "Workout",
     "image": "./images/11.png"
   },
   {
     "id": 12,
-    "name": "Ickis",
+    "name": "Gift",
     "image": "./images/12.png"
   }
 ]

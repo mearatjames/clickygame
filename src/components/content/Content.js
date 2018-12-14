@@ -7,7 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 
 const Content = props => (
-  <Grid item xs={6} sm={4}>
+  <Grid item xs={6} md={4}>
     <Card 
     onClick={() => props.handleSelect(props.id)}
     className="card" >

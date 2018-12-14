@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Content from "./components/content";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 import items from "./items.json";
 import Grid from '@material-ui/core/Grid';
 import "./App.css";
@@ -19,7 +21,7 @@ class App extends Component {
       this.setState({currentScore: this.state.currentScore + 1})
       this.state.currentScore >= this.state.topScore ? this.setState({topScore: this.state.topScore + 1}) : this.setState({topScore: this.state.topScore})
     } else {
-      
+
       this.setState({currentScore: 0, selected: []})
     }
     
@@ -30,10 +32,14 @@ class App extends Component {
   render() {
     return (
     <>
-      <h1 className="title">Clicky Game</h1>
-      <p>Current Score: {this.state.currentScore}</p>
-      <p>Top Score: {this.state.topScore}</p>
-      <Grid container >   
+      <Nav 
+      currentScore={this.state.currentScore}
+      topScore={this.state.topScore}
+       />
+      <Grid
+        container 
+        justify="space-around"
+        alignContent="center" >   
       {this.state.items.map(i => 
       <Content
         handleSelect = {this.handleSelect}
@@ -43,8 +49,8 @@ class App extends Component {
         image={i.image}
       />
         )}
-      
       </Grid>
+      <Footer />
     </>
     )
   }
