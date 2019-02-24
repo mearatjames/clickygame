@@ -1,6 +1,6 @@
 # Clicky Game
 
-A pure front end React application in a form of a brain teaser game.
+A pure front end React application in a form of a memory teaser game.
 
 ## Built With
 
